@@ -1,0 +1,218 @@
+
+
+/*COMANDOS PAGINA PRINCIPAL*/
+#conteinerProdutos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+#abaProdutos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1060px;
+}
+.caixa_Nome_Produtos{ 
+    width: 250px;
+    /* height: 64px; */
+    /* display: inline-grid; */
+    margin: 5px;
+    border: 2px #00000024 solid;
+    text-align: center;
+    background-color: #d4d5dca8;
+    align-self: center;
+}
+.formatacaoTitulo{
+    margin-top: 0px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+.formatacaoSubTitulo{
+    color: #F56618;
+    margin-top: 0px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.botaoComprar {
+    /* height: 50px; */
+    width: 100%;
+    background: #2a2a2a;
+    text-transform: uppercase;
+    color: white;
+    transition: all ease-in 0.3s;
+    cursor: pointer;
+    padding: 15px;
+    border: 0;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+}
+.botaoComprar:hover{
+    transition: all ease-in 0.3s;
+    background: #2a2a2a;
+    background-color: #00000093;
+
+}
+
+/*ACESSO ADMINISTRADOR*/
+.dashboardCadastro{
+    display: flex;
+    background-color: white;
+    /* width: 1110px; */
+    /* height: 500px;*/
+}
+.produtosCadastrados{
+    width: 1060px;
+}
+.tamanhaImgProdutoCad {
+    width: 95px;
+    height: 111px;
+}
+.conteiner_Caixa_Produtos_Cadastrados {
+    background-color: white;
+    /* width: 926px; */
+    /* height: 183px; */
+    padding: 25px;
+    border: 1px solid #e0e0e0;
+}
+.caixa_Produtos_Cadastrados{
+    display: flex;
+    align-items: center;
+}
+.formatacaoTituloProdutoCad{
+    font-size: 15px;
+    color: black;
+    padding-left: 20px;
+    width: 158px;
+}
+.formatacaoPrecoProdutoCad {
+    font-size: 14px;
+    font-weight: 700;
+    color: #F56618;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 30px;
+}
+.formatacaoPesoProdutoCad {
+    font-size: 14px;
+    font-weight: 700;
+    color: #2a2a2a;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 50px;
+}
+.formatacaoBotao {
+    width: 76px;
+    height: 40px;
+    margin-left: 10px;
+    background: #2a2a2a;
+    font-size: 11px;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border: 0;
+}
+.formatacaoBotao:hover{
+    transition: all ease-in 0.3s;
+    background: #2a2a2a;
+    background-color: #00000093;
+    transition: all ease-in 0.3s;
+}
+
+/*CONFIRMAÇÂO SE O REGISTRO FOI EXCLUIDO*/
+.conteinerConfirmacao{
+    display: flex;
+    justify-content: center;
+}
+.confirmacao{
+    background-color: white;
+    height: 500px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.confirmacaoPositiva{
+    background-color: #4aad5b;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.confirmacaoPositiva ion-icon{
+    color: white;
+    font-size: 160px
+}
+.confirmacaoPositiva h1{
+    color: white;
+}
+.botaoRetornoPositivo {
+    margin: 15px;
+    padding: 15px;
+    width: 390px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #ffffff;
+    color: #4aad5b;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.confirmacaoNegativa{
+    background-color: #e45649;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.confirmacaoNegativa ion-icon{
+    color: white;
+    font-size: 160px
+}
+.confirmacaoNegativa h1{
+    color: white;
+}
+.botaoRetornoNegativo {
+    margin: 15px;
+    padding: 15px;
+    width: 390px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #ffffff;
+    color: #e45649;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*CADASTRO DE NOVO PRODUTO*/
+.categoriaProduto{
+    margin-top: 15px;
+}
+.categoriaProduto label{
+    margin-top: 15px;
+}
+.cadastrarNovoProduto{
+    display: flex;
+    background-color: white;
+    width: 1110px;
+    /*height: 899px;*/
+}
+.formatacaoDescricao{
+    padding-left: 32px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #2a2a2a;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 50px;
+}
